@@ -16,6 +16,7 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     color: rgb(1, 22, 52);
+    margin-bottom: 40px;
 }
 
 #logo{
@@ -29,3 +30,31 @@ header{
 
 
 /* Main */
+.box{
+    margin: 0px 20% 2px 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.box{
+    background-color: white;
+}
+
+#task{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+#section{
+    background-color: white;
+    color: grey;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+}
