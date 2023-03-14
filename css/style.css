@@ -1,9 +1,10 @@
 
-/* Background */
+/* General */
 
 body{
     background-color: aquamarine;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -30,10 +31,12 @@ header{
 
 
 /* Main */
+
+
+/* Add Buttons */
 .box{
     margin: 0px 20% 2px 20%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 50px 20px 50px;
     border-radius: 5px;
 }
 
@@ -47,7 +50,6 @@ header{
     border-radius: 5px;
     padding: 5px;
     margin-right: 5px;
-    margin-left: 50px;
 }
 
 #section{
@@ -57,4 +59,29 @@ header{
     padding: 5px;
     border-color: black;
     border-width: 1px;
+}
+
+
+
+/* Tasks */
+
+.type{
+    color: rgb(1, 22, 52);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.what-to-do{
+    color: rgb(1, 22, 52);
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#editorial{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 11px;
+    font-weight: 300;
+    border-radius: 10px;
+    padding: 6px;
 }
